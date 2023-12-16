@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Tabela Responsiva com Vite e Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de exemplo que demonstra a criação de uma tabela responsiva utilizando Vite e Tailwind CSS. Esta tabela é projetada para se adaptar a diferentes tamanhos de tela, oferecendo uma experiência consistente em dispositivos móveis e desktop.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Vite](https://vitejs.dev/): Um construtor de aplicativos web rápido e moderno para desenvolvimento em tempo real.
+- [Tailwind CSS](https://tailwindcss.com/): Um framework CSS utilitário para construção de designs customizados.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Tabela responsiva que se ajusta a diferentes tamanhos de tela.
+- Visual limpo e legível em dispositivos móveis e desktop.
+- **Adicione printscreens dos resultados do projeto aqui:**
 
-- Configure the top-level `parserOptions` property like this:
+  ![Print 1](public/prints/print1.png)
+  
+  ![Print 2](public/prints/print2.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Como Usar
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/gildembergleite/responsive-table-tailwind.git
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   cd responsive-table-tailwind
+   npm install
+   ```
+
+3. Execute o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+   Isso iniciará o servidor de desenvolvimento. Abra o navegador e visite `http://localhost:5173` para visualizar a tabela responsiva.
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir com novos recursos, correções de bugs ou melhorias. Abra um PR (pull request) com suas alterações, e ficaremos felizes em revisar e mesclar.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
